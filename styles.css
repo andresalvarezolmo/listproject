@@ -3,7 +3,15 @@ body {
     background-color: #14213D;
     font-weight: 600;
     
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+
+}
+@media (max-width: 978px) {
+
+    body {
+        margin-top: 10%;
+    }
+}
 
 h1 {
     color:  #E5E5E5;
