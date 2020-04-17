@@ -27,12 +27,7 @@ function addToList()
     newNode.appendChild(content);
     var element = document.getElementById("olist");
     element.appendChild(newNode);
-    document.getElementById("tasklist").value = ""
-    // var index = 0;
-    // var found = false;
-    // var lis = document.getElementsByTagName("li");
-    // console.log(lis[index].textContent);
-
+    document.getElementById("tasklist").value = "";
 }
 
 function deleteFromList()
@@ -58,7 +53,7 @@ function deleteFromList()
         }
         else{
             document.getElementById("deleteItem").value = "";
-            alert("Pleas enter an existent task to delete");         
+            alert("Please enter an existent task to delete");         
             return -1;
         }
     }
