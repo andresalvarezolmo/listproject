@@ -49,7 +49,6 @@ function deleteFromList()
     for (let index = 0; index < lis.length; index++) {
         if (lis[index].textContent == deleteFilling) {
             console.log("Coincidence found!");
-            found = true;
         }
         else{
             document.getElementById("deleteItem").value = "";

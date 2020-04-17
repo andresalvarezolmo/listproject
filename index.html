@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <!-- Jquery -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">    <!-- Jquery -->
     <script src="jquery-3.5.0.min.js"></script>
     <!-- JS -->
     <script src="functions.js"></script>
@@ -17,20 +19,23 @@
 </head>
 
 <body>
-    <h1>TO DO LIST</h1>
-    <br>
-    <button class="btn btn-dark" onclick="addToList()">Add</button>
-    <input type="text" id="tasklist" name="fname">
-    <br><br>
-    <ul id="olist" class="list-group" >
-    </ul>
-    <br>
-    <input type="text" id="deleteItem" name="fname">
-    <button class="btn btn-danger" onclick="deleteFromList()">Eliminate</button>
-    <!-- <br><br> -->
-    <!-- <button class="btn btn-info" onclick="searchList()">Look for to do</button> -->
+    <!-- <div class="container"> -->
+        <div class="text-center">
+            <h1>TO DO LIST</h1>
+            <br>
 
-
+            <button class="btn btn-dark" onclick="addToList()">Add</button>
+            <input type="text" id="tasklist" name="fname">
+            <br><br>
+            <ul id="olist" class="list-group">
+            </ul>
+            <br>
+            <input type="text" id="deleteItem" name="fname">
+            <button class="btn btn-danger" onclick="deleteFromList()">Eliminate</button>
+            <!-- <br><br> -->
+            <!-- <button class="btn btn-info" onclick="searchList()">Look for to do</button> -->
+        </div>
+    <!-- </div> -->
 </body>
 
 </html>

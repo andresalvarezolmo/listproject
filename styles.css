@@ -1,4 +1,10 @@
 body {
-    background-color: aliceblue;
-    margin: 20px;
+    margin-top: 3%;
+    background-color: #14213D;
+    font-weight: 600;
+    
+    font-family: 'Montserrat', sans-serif;}
+
+h1 {
+    color:  #E5E5E5;
 }
