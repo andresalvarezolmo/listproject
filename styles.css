@@ -16,3 +16,10 @@ body {
 h1 {
     color:  #E5E5E5;
 }
+
+p{
+    color: red;
+    margin: auto;
+    display: none;
+}
+
