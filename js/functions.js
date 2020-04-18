@@ -46,6 +46,9 @@ function addToList()
     document.getElementById("tasklist").value = "";
 }
 
+
+//deletes node from list
+//uses deleteFilling as parameter
 function deleteFromList() 
 {
     //get input from deleteItem text box
@@ -69,7 +72,8 @@ function deleteFromList()
         $("#deleteText").css("display", "block")
         // alert("Please write something before removing it from the list");
         return -1;
-    } 
+    }
+    //if there are nodes and input is valid
     else 
     {
         //check if input is within the existent tasks
@@ -89,6 +93,7 @@ function deleteFromList()
                 found = true;
             }   
         }
+        //if no node was found with that name
         if (found == false)
         {
                 document.getElementById("deleteItem").value = "";

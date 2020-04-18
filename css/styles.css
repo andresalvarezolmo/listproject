@@ -11,10 +11,13 @@ body {
     body {
         margin-top: 10%;
     }
+    #entireList{
+        margin-bottom: 15%;
+    }
 }
 
 h1 {
-    color:  #E5E5E5;
+    color:  #EDEEFF;
 }
 
 p{
@@ -27,4 +30,14 @@ li{
     margin-left: 10%;
     margin-right: 10%;
 
+}
+
+#author{
+    color: white;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+}
+
+#entireList{
+    margin-bottom: 5%;
 }
