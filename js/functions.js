@@ -16,6 +16,7 @@ $(document).ready(function(){
         }
       });
 
+      $(".list-group").sortable();
 });
 
 //add to list function
