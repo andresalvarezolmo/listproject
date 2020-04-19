@@ -49,3 +49,19 @@ input{
     width: 200px;
     height: 15px;    
 }
+
+#addButton{
+    border-radius: 25px;
+    border: 2px solid #14213D;
+    padding: 15px; 
+}
+
+#deleteButton{
+    border-radius: 25px;
+    border: 2px solid #14213D;
+    padding: 15px; 
+}
+
+#gitlink{
+    color: white;
+}
