@@ -41,3 +41,11 @@ li{
 #entireList{
     margin-bottom: 5%;
 }
+
+input{
+    border-radius: 25px;
+    border: 2px solid #14213D;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
